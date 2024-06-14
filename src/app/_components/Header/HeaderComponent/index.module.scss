@@ -1,0 +1,34 @@
+@import '../../../_css/common.scss';
+
+.wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:calc(var(--base) / 2) var(--base)
+}
+
+.logo{
+  width: 170px;
+}
+
+.hide{
+  display: none;
+}
+
+.large{
+  display:block;
+
+  @include small-break{
+    display: none;
+  }
+}
+
+
+.small{
+  display:none;
+
+  @include small-break{
+    display: block;
+  }
+}

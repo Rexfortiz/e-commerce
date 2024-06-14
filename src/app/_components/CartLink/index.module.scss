@@ -4,6 +4,25 @@
   align-items: center;
 }
 
-.quantity {
-  margin-left: 2px;
+.cart{
+  display: flex;
+  position: relative;
+}
+
+.number{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  bottom: 15px;
+  left: 18px;
+  width: 25px;
+  height: 25px;
+
+  font-weight: 800;
+  border: 2px solid white;
+  border-radius: 100%;
+  background-color: var(--theme-elevation-1000);
 }
